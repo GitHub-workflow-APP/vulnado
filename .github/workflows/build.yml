@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: register
     steps:
-      - name: Register build
-        id: register-build
+      - name: Register build-1
+        id: register-build-1
         uses: veracode/github-actions-integration-helper@main
         with:
           action: registerBuild
